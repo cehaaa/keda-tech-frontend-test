@@ -114,7 +114,7 @@ const Home = () => {
 				</div>
 			</Section>
 
-			<Section className='bg-slate-50'>
+			<Section className='bg-white'>
 				<Heading>Ready To Get Started?</Heading>
 				<Text className='text-lg'>Choose a plan tailored your needs</Text>
 
@@ -125,23 +125,30 @@ const Home = () => {
 				</div>
 			</Section>
 
-			{/* <Section className='bg-blue-600'>
-				<Heading className='text-white'>Contact Us</Heading>
-        <Text></Text>
-			</Section> */}
-
-			<section className='bg-blue-600'>
-				<Container>
-					<div className='w-full h-full flex items-center justify-center'>
-						<div>
-							<Heading className='text-white'>Contact Us</Heading>
-							<Text className='text-white text-lg'>
-								Feel free to contact us, we love to assist with your question
-							</Text>
-						</div>
+			<Section className='bg-slate-50 mt-[100px] flex items-center'>
+				<div className='w-full grid grid-cols-2 gap-x-10 items-center'>
+					<div className='relative'>
+						<img
+							src='https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80'
+							alt='image'
+							className=' w-full object-cover'
+						/>
 					</div>
-				</Container>
-			</section>
+					<div>
+						<Subheading></Subheading>
+						<Heading>Contact Us</Heading>
+						<Text className='mb-5'>
+							We value your feedback and inquiries, and are always here to help
+							you with any questions or concerns you may have. Whether you need
+							assistance with an order, have a suggestion for us, or just want
+							to say hello, we would love to hear from you. Please don't
+							hesitate to reach out to us via phone, email, or the form below.
+							We look forward to connecting with you!
+						</Text>
+						<Button>Contact Us</Button>
+					</div>
+				</div>
+			</Section>
 		</div>
 	);
 };
