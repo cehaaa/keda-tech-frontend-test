@@ -7,10 +7,10 @@ import Hyperlink from "../Hyperlink/Hyperlink";
 const Footer = () => {
 	return (
 		<>
-			<footer className='bg-gray-100 py-16 text-black'>
+			<footer className='bg-blue-600 py-16 text-white'>
 				<div className='w-9/12 mx-auto grid grid-cols-1 md:grid-cols-5 items-start gap-y-10 md:gap-y-0'>
 					<div className='max-w-[500px] cols-span-1 md:col-span-2 '>
-						<Heading className='text-3xl text-blue-600'>Home</Heading>
+						<Heading className='text-3xl text-white'>Home</Heading>
 					</div>
 					<div>
 						<div className='font-semibold'>Why Home?</div>
