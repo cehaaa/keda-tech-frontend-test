@@ -8,7 +8,7 @@ const HeroSection = () => {
 					<div className='uppercase font-semibold tracking-wider'>
 						Welcome to digital ERP agency
 					</div>
-					<div className='text-4xl md:text-6xl my-5 font-bold leading-snug'>
+					<div className='text-4xl md:text-6xl my-10 font-bold leading-snug'>
 						Best Enterprise Resource Planning Agency
 					</div>
 					<Button variant='secondary'>Read more</Button>
