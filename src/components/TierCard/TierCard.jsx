@@ -5,7 +5,7 @@ import Button from "../Basics/Button/Button";
 
 const TierCard = ({ tier }) => {
 	return (
-		<div className='hover:bg-white transform hover:-translate-y-3 duration-200 cursor-pointer'>
+		<div className='hover:bg-blue-100 transform hover:-translate-y-3 duration-200 cursor-pointer'>
 			<div className='p-5'>
 				<Text className='text-3xl text-black mb-2 font-semibold'>
 					{tier.title}
