@@ -9,7 +9,7 @@ const Navbar = () => {
 		<div className='w-full bg-white h-20 flex items-center '>
 			<Container>
 				<div className='flex justify-between w-full items-center'>
-					<div className='text-xl font-medium'>Home</div>
+					<div className='text-xl font-medium'>The ERP Company</div>
 					<div className='hidden md:flex space-x-8 items-center'>
 						<div className='font-semibold'>Home</div>
 						<Hyperlink>About</Hyperlink>
