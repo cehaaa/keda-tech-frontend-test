@@ -7,7 +7,7 @@ const TierCard = ({ tier }) => {
 	return (
 		<div className='hover:bg-blue-50 transform hover:-translate-y-3 duration-200 cursor-pointer'>
 			<div className='p-5'>
-				<Text className='text-3xl text-black mb-2 font-semibold'>
+				<Text className='text-black text-3xl mb-2 font-semibold'>
 					{tier.title}
 				</Text>
 				<Text>Perfect for started</Text>

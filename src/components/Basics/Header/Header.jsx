@@ -6,7 +6,7 @@ import Container from "../Container/Container";
 const Header = () => {
 	return (
 		<div className='sticky top-0 z-10 shadow-sm'>
-			<div className='bg-gray-50 py-3.5  text-sm'>
+			<div className='bg-gray-50 py-3.5 text-sm hidden md:block'>
 				<Container>
 					<div className='flex items-center space-x-5'>
 						<div className='flex items-center hover:text-blue-600 cursor-pointer duration-150 ease-in-out text-gray-400'>
