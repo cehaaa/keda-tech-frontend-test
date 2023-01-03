@@ -2,9 +2,10 @@ import React from "react";
 
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
-import Header from "./Basics/Header/Header";
-
 import Home from "./Views/Home/Home";
+
+import Header from "./Basics/Header/Header";
+import Footer from "./Basics/Footer/Footer";
 
 const routes = [
 	{
@@ -20,6 +21,7 @@ const App = () => {
 		<>
 			<Header />
 			<RouterProvider router={router} />
+			<Footer />
 		</>
 	);
 };
