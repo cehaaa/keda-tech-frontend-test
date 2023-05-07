@@ -10,7 +10,7 @@ import Subheading from "../../Basics/Subheading/Subheading";
 import TierCard from "../../TierCard/TierCard";
 
 const Home = () => {
-	const intialTiers = [
+	const initialTiers = [
 		{
 			title: "Basic",
 			description: "Perfect for started",
@@ -33,8 +33,8 @@ const Home = () => {
 			],
 		},
 		{
-			title: "Enterpreneur",
-			description: "Perfect for enterpreneur",
+			title: "Entrepreneur",
+			description: "Perfect for entrepreneur",
 			price: 100,
 			benefits: [
 				"Record incoming and outgoing goods",
@@ -47,7 +47,7 @@ const Home = () => {
 		},
 	];
 
-	const [tiers, setTiers] = useState(intialTiers);
+	const [tiers, setTiers] = useState(initialTiers);
 
 	return (
 		<div className='h-full'>
@@ -114,7 +114,7 @@ const Home = () => {
 						/>
 
 						<Text className='mb-5 text-lg text-gray-500'>
-							Our co mpany is a leading provider of Enterprise Resource Planning
+							Our company is a leading provider of Enterprise Resource Planning
 							(ERP) solutions for small and medium-sized businesses. We have
 							been in the industry for over a decade, and our team is made up of
 							experienced professionals who are dedicated to helping our clients

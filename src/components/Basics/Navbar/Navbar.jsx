@@ -12,9 +12,9 @@ const Navbar = () => {
 					<div className='text-xl font-medium'>The ERP Company</div>
 					<div className='hidden md:flex space-x-8 items-center'>
 						<div className='font-semibold'>Home</div>
-						<Hyperlink>About</Hyperlink>
-						<Hyperlink className='text-gray-500'>Pricing</Hyperlink>
-						<Hyperlink className='text-gray-500'>Contact</Hyperlink>
+						<Hyperlink className='text-gray-400'>About</Hyperlink>
+						<Hyperlink className='text-gray-400'>Pricing</Hyperlink>
+						<Hyperlink className='text-gray-400'>Contact</Hyperlink>
 						<Button>Sign In</Button>
 					</div>
 					<div className='block md:hidden'>
